@@ -1,0 +1,46 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+</head>
+<body>
+    <script>
+
+// Challenge:
+
+// For each person in the contacts object, 
+// create a new object that will hold their phone number, address, and state of residency. 
+// Then console.log one person's address.
+const contactList = {
+dan: {
+    phone:"555-330-2289",
+    address: "Cecilia Chapman 711-2880 Nulla St.Mankato",
+    state:"Mississippi"
+},
+
+dante:{
+    phone:"555-660-2295",
+    address: "Iris Watson P.O. Box 283 8562 Fusce Rd.Frederick",
+    state:"Nebraska"
+},
+
+arianne: {
+    phone:"682-559-9795",
+    address: "1903 Windsor Place Ct.",
+    state:"Arlington"
+},
+
+jordan: {
+    phone:"682-865-9578",
+    address: "1667 K Street NW",
+    state:"Washington"
+}
+}
+console.log('Dan: '+ contactList.dan.address);
+console.log('Dante: '+contactList.dante.address);
+console.log('Arianne: '+contactList.arianne.address);
+console.log('Jordan: '+contactList.jordan.address);
+</script>
+</body>
+</html>

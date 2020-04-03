@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+</head>
+<body>
+    <script>
+const player1 = {
+    name: 'Link',
+    health: 55,
+    strength: 332,
+    isAlive: true,
+    points: 5000
+  };
+  
+  //dot notation
+  console.log(player.name);
+  console.log(player.isAlive);
+  
+  //bracket notation
+  const propName = 'health';
+  console.log(player1[propName]);
+  
+  //we can use these same techniques to add or set property values
+  player1.speed = 5;
+  console.log(player1);
+  
+  player1.points = 5300;
+  console.log(player1);
+</script>
+</body>
+</html>

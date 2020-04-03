@@ -1,0 +1,37 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+</head>
+<body>
+    <script>
+
+// In this activity , you'll use objects to make an interactive phone book:
+
+// In the code provided, add more contacts to the contacts object.
+// console.log one person's phone number.
+// Next add a prompt that prompts the user for a name and store the response in a variable called prop
+// Use an alert to display the phone number associated with the name the user entered.
+// Hint: You may need to use bracket notation for this exercise.
+
+const contacts = {
+    dan: "555-330-2289",
+    dante: "555-660-2295",
+    arianne: "682-559-9795",
+    jordan:"682-865-9578"
+  }
+
+  console.log(contacts.dan);
+  console.log(contacts.dante);
+  console.log(contacts.arianne);
+  console.log(contacts.jordan);
+
+  const prop = prompt('please enter a name')
+  
+  const showContact = prop;
+  alert(showContact+": "+ contacts[showContact]);
+
+</script>
+</body>
+</html>
